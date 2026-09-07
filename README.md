@@ -51,7 +51,7 @@ Open `src/data.ts` and update the `works` array. The visual player is already bu
 4. Deploy the generated `dist` folder to GitHub Pages.
 
 ### Option B — GitHub Actions
-A deployment workflow can be added after the repository name is known, because GitHub Pages paths can differ depending on whether the site uses a custom domain..
+A deployment workflow can be added after the repository name is known, because GitHub Pages paths can differ depending on whether the site uses a custom domain.
 
 ## Structure
 
