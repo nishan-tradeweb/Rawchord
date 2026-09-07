@@ -266,8 +266,8 @@ function App() {
           <p>Music production and recording studio<br />Chelari, Malappuram</p>
         </div>
         <div className="footer-socials">
-          <a href={studio.instagram} target="_blank" rel="noreferrer" aria-label="RawChord Instagram"><span className="social-text">IG</span></a>
-          <a href={studio.youtube} target="_blank" rel="noreferrer" aria-label="RawChord YouTube"><span className="social-text">YT</span></a>
+          <a href={studio.instagram} target="_blank" rel="noreferrer" aria-label="RawChord Instagram"><InstagramIcon size={20} /></a>
+          <a href={studio.youtube} target="_blank" rel="noreferrer" aria-label="RawChord YouTube"><YoutubeIcon size={20} /></a>
         </div>
         <p className="copyright">© {new Date().getFullYear()} RawChord. All rights reserved.</p>
       </footer>
