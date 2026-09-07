@@ -120,16 +120,13 @@ function App() {
           </motion.button>
         </div>
 
-        <div className="hero-footer">
-          <span>RAW SOUND. REAL FEELING.</span>
-          <span>SCROLL TO EXPLORE ↓</span>
-        </div>
+        
       </section>
 
       <section id="services" className="section section-shell services-section">
         <div className="section-heading">
           <div>
-            <span className="section-kicker">01 / SERVICES</span>
+            <span className="section-kicker">SERVICES</span>
             <h2>Crafted for the sound you imagine.</h2>
           </div>
           <p>Premium studio services with transparent starting prices. Final quotes can be tailored to your project.</p>
