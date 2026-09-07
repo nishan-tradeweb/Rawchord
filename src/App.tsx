@@ -184,7 +184,6 @@ function App() {
             <span className="section-kicker">SELECTED WORKS</span>
             <h2>Play the feeling.</h2>
           </div>
-          <p>Swipe or scroll through selected releases and sessions. Replace the demo audio links in <code>src/data.ts</code> with your real tracks.</p>
         </div>
 
         <div className="album-track">
