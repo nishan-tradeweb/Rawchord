@@ -30,4 +30,4 @@ Single-viewport black hero page for Rawchord, Chelari.
 2. In the repo: **Settings → Pages → Source → Deploy from a branch → `main` / `/(root)`** → Save.
 3. Your site will be live at `https://<your-username>.github.io/rawchord-site/` within a minute or two.
 
-Add your logo file and the extra sections (Services, Studio, Gallery, Contact) whenever you're ready — the nav links and IDs are already in place so they'll just click into position.
+Add your logo file and the extra sections (Services, Studio, Gallery, Contact) whenever you're ready — the nav links and IDs are already in place so they'll just click into position..
