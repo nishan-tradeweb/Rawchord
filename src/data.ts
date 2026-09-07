@@ -19,9 +19,34 @@ export const services = [
 ];
 
 export const works = [
-  { title: "Kalyani", artist: "Jishakkul", genre: "Electronic", audio: "/Rawchord/public/music/KALYANI.mp3"},
-  { title: "After Rain", artist: "Independent Artist", genre: "Ambient", audio: "" },
-  { title: "Unsaid", artist: "RawChord Session", genre: "Pop", audio: "" },
-  { title: "Velvet Sky", artist: "Independent Artist", genre: "R&B", audio: "" },
-  { title: "Echoes", artist: "RawChord Original", genre: "Cinematic", audio: "" }
+  {
+    title: "Cha Cha Chi Chi",
+    artist: "Jishakkul",
+    genre: "Music Production",
+    audio: "/Rawchord/music/Cha Cha Chi Chi.mp3"
+  },
+  {
+    title: "Illey Illa",
+    artist: "Jishakkul",
+    genre: "Music Production",
+    audio: "/Rawchord/music/Illey Illa.mp3"
+  },
+  {
+    title: "Kalyani",
+    artist: "Jishakkul",
+    genre: "Music Production",
+    audio: "/Rawchord/music/KALYANI.mp3"
+  },
+  {
+    title: "Loser Song",
+    artist: "Jishakkul",
+    genre: "Music Production",
+    audio: "/Rawchord/music/Loser Song.mp3"
+  },
+  {
+    title: "The Bloodline",
+    artist: "Jishakkul",
+    genre: "Music Production",
+    audio: "/Rawchord/music/The Bloodline.mp3"
+  }
 ];
