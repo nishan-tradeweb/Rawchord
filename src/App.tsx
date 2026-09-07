@@ -1,25 +1,5 @@
 import { useRef, useState } from "react";
 
-const [playing, setPlaying] = useState<number | null>(null);
-const audioRef = useRef<HTMLAudioElement | null>(null);
-
-const handlePlay = (index: number) => {
-  const track = works[index];
-
-  if (!track.audio) return;
-
-  if (playing === index) {
-    audioRef.current?.pause();
-    setPlaying(null);
-    return;
-  }
-
-  if (audioRef.current) {
-    audioRef.current.src = track.audio;
-    audioRef.current.play();
-    setPlaying(index);
-  }
-};
 
 import { motion } from "framer-motion";
 import {
@@ -67,6 +47,25 @@ const scrollTo = (id: string) => {
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [playing, setPlaying] = useState<number | null>(null);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+
+  const handlePlay = (index: number) => {
+    const track = works[index];
+
+    if (!track.audio) return;
+
+    if (playing === index) {
+      audioRef.current?.pause();
+      setPlaying(null);
+      return;
+    }
+
+    if (audioRef.current) {
+      audioRef.current.src = track.audio;
+      audioRef.current.play();
+      setPlaying(index);
+    }
+  };
 
   const nav = [
     ["Home", "home"],
