@@ -160,7 +160,7 @@ function App() {
       <section id="works" className="section section-shell works-section">
         <div className="section-heading">
           <div>
-            <span className="section-kicker">02 / SELECTED WORK</span>
+            <span className="section-kicker">SELECTED WORKs</span>
             <h2>Play the feeling.</h2>
           </div>
           <p>Swipe or scroll through selected releases and sessions. Replace the demo audio links in <code>src/data.ts</code> with your real tracks.</p>
@@ -199,13 +199,13 @@ function App() {
           })}
         </div>
 
-        <div className="works-note"><Volume2 size={17} /> Horizontal scrolling is enabled on mobile, tablet and desktop.</div>
+      
       </section>
 
       <section id="contact" className="section section-shell contact-section">
         <div className="section-heading">
           <div>
-            <span className="section-kicker">03 / CONTACT & LOCATION</span>
+            <span className="section-kicker">CONTACT & LOCATION</span>
             <h2>Let's make something unforgettable.</h2>
           </div>
         </div>
