@@ -19,7 +19,7 @@ export const services = [
 ];
 
 export const works = [
-  { title: "Midnight Drive", artist: "RawChord Original", genre: "Electronic", audio: "" },
+  { title: "Kalyani", artist: "Jishakkul", genre: "Electronic", audio: "/Rawchord/music/KALYANI.mp3"},
   { title: "After Rain", artist: "Independent Artist", genre: "Ambient", audio: "" },
   { title: "Unsaid", artist: "RawChord Session", genre: "Pop", audio: "" },
   { title: "Velvet Sky", artist: "Independent Artist", genre: "R&B", audio: "" },
