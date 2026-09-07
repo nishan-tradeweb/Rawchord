@@ -34,8 +34,8 @@ function App() {
           </a>
 
           <div className="social-header" aria-label="Social links">
-            <a href={studio.instagram} target="_blank" rel="noreferrer" aria-label="Instagram"><Instagram size={19} /></a>
-            <a href={studio.youtube} target="_blank" rel="noreferrer" aria-label="YouTube"><Youtube size={20} /></a>
+            <a href={studio.instagram} target="_blank" rel="noreferrer" aria-label="Instagram"><InstagramIcon size={19} /></a>
+            <a href={studio.youtube} target="_blank" rel="noreferrer" aria-label="YouTube"><YoutubeIcon size={20} /></a>
           </div>
 
           <button className="menu-button" onClick={() => setMenuOpen(true)} aria-label="Open menu">
@@ -236,8 +236,8 @@ function App() {
           <p>Music production and recording studio<br />Chelari, Malappuram</p>
         </div>
         <div className="footer-socials">
-          <a href={studio.instagram} target="_blank" rel="noreferrer" aria-label="RawChord Instagram"><Instagram /></a>
-          <a href={studio.youtube} target="_blank" rel="noreferrer" aria-label="RawChord YouTube"><Youtube /></a>
+          <a href={studio.instagram} target="_blank" rel="noreferrer" aria-label="RawChord Instagram"><InstagramIcon /></a>
+          <a href={studio.youtube} target="_blank" rel="noreferrer" aria-label="RawChord YouTube"><YoutubeIcon /></a>
         </div>
         <p className="copyright">© {new Date().getFullYear()} RawChord. All rights reserved.</p>
       </footer>
