@@ -129,7 +129,7 @@ function App() {
             <span className="section-kicker">SERVICES</span>
             <h2>Crafted for the sound you imagine.</h2>
           </div>
-          <p>Premium studio services with transparent starting prices. Final quotes can be tailored to your project.</p>
+          <p></p>
         </div>
 
         <div className="services-grid">
