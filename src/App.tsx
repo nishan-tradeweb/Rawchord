@@ -1,4 +1,26 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
+
+const [playing, setPlaying] = useState<number | null>(null);
+const audioRef = useRef<HTMLAudioElement | null>(null);
+
+const handlePlay = (index: number) => {
+  const track = works[index];
+
+  if (!track.audio) return;
+
+  if (playing === index) {
+    audioRef.current?.pause();
+    setPlaying(null);
+    return;
+  }
+
+  if (audioRef.current) {
+    audioRef.current.src = track.audio;
+    audioRef.current.play();
+    setPlaying(index);
+  }
+};
+
 import { motion } from "framer-motion";
 import {
   ArrowUpRight, Menu, Phone, Mail, MapPin,
@@ -187,19 +209,26 @@ function App() {
                   <p>{work.artist}</p>
                 </div>
                 <button
-                  className="play-button"
-                  onClick={() => setPlaying(active ? null : index)}
-                  aria-label={`${active ? "Pause" : "Play"} ${work.title}`}
-                >
-                  {active ? <Pause size={18} fill="currentColor" /> : <Play size={18} fill="currentColor" />}
-                </button>
+  className="play-button"
+  onClick={() => handlePlay(index)}
+  aria-label={`${active ? "Pause" : "Play"} ${work.title}`}
+>
+  {active ? (
+    <Pause size={18} fill="currentColor" />
+  ) : (
+    <Play size={18} fill="currentColor" />
+  )}
+</button>
                 {active && <div className="equalizer"><i /><i /><i /><i /></div>}
               </motion.article>
             );
           })}
         </div>
 
-      
+      <audio
+  ref={audioRef}
+  onEnded={() => setPlaying(null)}
+/>
       </section>
 
       <section id="contact" className="section section-shell contact-section">
