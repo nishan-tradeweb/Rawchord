@@ -22,31 +22,31 @@ export const works = [
   {
     title: "Cha Cha Chi Chi",
     artist: "Jishakkul",
-    genre: "Music Production",
-    audio: "/Rawchord/music/Cha Cha Chi Chi.mp3"
+    genre: "Electronic",
+    audio: "/music/Cha%20Cha%20Chi%20Chi.mp3"
   },
   {
     title: "Illey Illa",
     artist: "Jishakkul",
-    genre: "Music Production",
-    audio: "/Rawchord/music/Illey Illa.mp3"
+    genre: "Ambient",
+    audio: "/music/Illey%20Illa.mp3"
   },
   {
     title: "Kalyani",
     artist: "Jishakkul",
-    genre: "Music Production",
-    audio: "/Rawchord/music/KALYANI.mp3"
+    genre: "Pop",
+    audio: "/music/KALYANI.mp3"
   },
   {
     title: "Loser Song",
     artist: "Jishakkul",
-    genre: "Music Production",
-    audio: "/Rawchord/music/Loser Song.mp3"
+    genre: "R&B",
+    audio: "/music/Loser%20Song.mp3"
   },
   {
     title: "The Bloodline",
     artist: "Jishakkul",
-    genre: "Music Production",
-    audio: "/Rawchord/music/The Bloodline.mp3"
+    genre: "Cinematic",
+    audio: "/music/The%20Bloodline.mp3"
   }
 ];
