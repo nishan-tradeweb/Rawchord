@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import {
-  ArrowUpRight, Instagram, Youtube, Menu, Phone, Mail, MapPin,
-  MessageCircle, X, Play, Pause, Music2, Volume2, ExternalLink
+  ArrowUpRight, Menu, Phone, Mail, MapPin,
+  MessageCircle, X, Play, Pause, Music2, Volume2, ExternalLink,
+  InstagramIcon, YoutubeIcon
 } from "lucide-react";
 import logo from "./assets/rawchord-logo.png";
 import { services, studio, works } from "./data";
