@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import {
   ArrowUpRight, Menu, Phone, Mail, MapPin,
   MessageCircle, X, Play, Pause, Music2, Volume2, ExternalLink,
-  InstagramIcon, YoutubeIcon
+  
 } from "lucide-react";
 import logo from "./assets/rawchord-logo.png";
 import { services, studio, works } from "./data";
@@ -34,8 +34,8 @@ function App() {
           </a>
 
           <div className="social-header" aria-label="Social links">
-            <a href={studio.instagram} target="_blank" rel="noreferrer" aria-label="Instagram"><InstagramIcon size={19} /></a>
-            <a href={studio.youtube} target="_blank" rel="noreferrer" aria-label="YouTube"><YoutubeIcon size={20} /></a>
+            <a href={studio.instagram} target="_blank" rel="noreferrer" aria-label="Instagram"><span className="social-text">IG</span></a>
+            <a href={studio.youtube} target="_blank" rel="noreferrer" aria-label="YouTube"><span className="social-text">YT</span></a>
           </div>
 
           <button className="menu-button" onClick={() => setMenuOpen(true)} aria-label="Open menu">
@@ -236,8 +236,8 @@ function App() {
           <p>Music production and recording studio<br />Chelari, Malappuram</p>
         </div>
         <div className="footer-socials">
-          <a href={studio.instagram} target="_blank" rel="noreferrer" aria-label="RawChord Instagram"><InstagramIcon /></a>
-          <a href={studio.youtube} target="_blank" rel="noreferrer" aria-label="RawChord YouTube"><YoutubeIcon /></a>
+          <a href={studio.instagram} target="_blank" rel="noreferrer" aria-label="RawChord Instagram"><span className="social-text">IG</span></a>
+          <a href={studio.youtube} target="_blank" rel="noreferrer" aria-label="RawChord YouTube"><span className="social-text">YT</span></a>
         </div>
         <p className="copyright">© {new Date().getFullYear()} RawChord. All rights reserved.</p>
       </footer>
